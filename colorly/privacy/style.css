@@ -60,3 +60,5 @@ footer { text-align: center; font-size: 14px; color: var(--muted); margin-top: 2
 }
 .langs a[aria-current] { background: var(--coral); color: #fff; font-weight: 600; }
 .note { font-size: 13px; margin-top: 6px; }
+/* Fredoka has no Polish letters (ą, ę, ś, ż...): Polish page uses Baloo 2 */
+html:lang(pl) body { font-family: "Baloo 2", system-ui, sans-serif; }
